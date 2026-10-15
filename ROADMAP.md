@@ -3,7 +3,7 @@
 Checked off as completed. When fewer than 5 unchecked tasks remain, append 10 more: survey the current state of the art, then propose the next experiments. Keep every task concrete and verifiable — code, data, or notes that can be reviewed.
 
 ## A. Harness & data
-- [ ] A1. Scaffold eval harness: `eval/run.py` loads YAML suites, runs defenses, writes JSONL results + a Markdown summary
+- [x] A1. Scaffold eval harness: `eval/run.py` loads YAML suites, runs defenses, writes JSONL results + a Markdown summary
 - [ ] A2. `data/injection_tests.yaml`: 25 hand-written prompt-injection cases across 5 categories (direct override, roleplay, encoded payload, multi-turn, authority claim), each with expected behavior
 - [ ] A3. `data/jailbreak_corpus.md`: curated public jailbreak prompts with sources cited (JailbreakBench etc.) + a stats script
 - [ ] A4. Heuristic detector v1 (regex + keyword features); evaluate on A2; `results/detector_v1.md`

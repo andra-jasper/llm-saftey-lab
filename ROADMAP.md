@@ -4,7 +4,7 @@ Checked off as completed. When fewer than 5 unchecked tasks remain, append 10 mo
 
 ## A. Harness & data
 - [x] A1. Scaffold eval harness: `eval/run.py` loads YAML suites, runs defenses, writes JSONL results + a Markdown summary
-- [ ] A2. `data/injection_tests.yaml`: 25 hand-written prompt-injection cases across 5 categories (direct override, roleplay, encoded payload, multi-turn, authority claim), each with expected behavior
+- [x] A2. `data/injection_tests.yaml`: 25 hand-written prompt-injection cases across 5 categories (direct override, roleplay, encoded payload, multi-turn, authority claim), each with expected behavior — done 2026-10-16: `data/injection_tests.yaml`, harness-validated (25/25 rows)
 - [ ] A3. `data/jailbreak_corpus.md`: curated public jailbreak prompts with sources cited (JailbreakBench etc.) + a stats script
 - [ ] A4. Heuristic detector v1 (regex + keyword features); evaluate on A2; `results/detector_v1.md`
 - [ ] A5. Paper notes: Zou et al. 2023, "Universal and Transferable Adversarial Attacks on Aligned Language Models" → `notes/gcg.md`

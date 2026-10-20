@@ -8,7 +8,7 @@ Checked off as completed. When fewer than 5 unchecked tasks remain, append 10 mo
 - [x] A3. `data/jailbreak_corpus.md`: curated public jailbreak prompts with sources cited (JailbreakBench etc.) + a stats script — done 2026-10-17: 20 representative entries across 7 technique families with source citations; stats via `eval/corpus_stats.py` → `results/jailbreak_corpus_stats.md`
 - [x] A4. Heuristic detector v1 (regex + keyword features); evaluate on A2; `results/detector_v1.md` — done 2026-10-18: `eval/detector_v1.py` (9 regex/keyword families) + `data/benign_controls.yaml`; 17/25 attacks flagged, 0/10 benign FP
 - [x] A5. Paper notes: Zou et al. 2023, "Universal and Transferable Adversarial Attacks on Aligned Language Models" → `notes/gcg.md` — done 2026-10-19: key takeaways mapped to A6/D5/C7; honest coverage gap recorded (gradient-based gibberish-suffix attacks absent from A2/A4 suites, motivation for A6 perplexity filter)
-- [ ] A6. Perplexity filter with distilgpt2 (CPU): benign vs adversarial-suffix perplexity; `results/perplexity_filter.md`
+- [x] A6. Perplexity filter with distilgpt2 (CPU): benign vs adversarial-suffix perplexity; `results/perplexity_filter.md` — done 2026-10-20: `eval/perplexity_filter.py` scored 10 benign + 25 natural injections + 15 synthetic gibberish-suffix cases; suffix median PPL 370.5 vs benign 73.2, windowed AUROC 0.887, but pure-repetition suffixes evade entirely (PPL 4.1/6.8) and fluent injections overlap benign except encoded payloads
 
 ## B. Defenses
 - [ ] B1. System-prompt hardening, 3 levels; A/B on injection suite; record deltas

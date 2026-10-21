@@ -11,7 +11,7 @@ Checked off as completed. When fewer than 5 unchecked tasks remain, append 10 mo
 - [x] A6. Perplexity filter with distilgpt2 (CPU): benign vs adversarial-suffix perplexity; `results/perplexity_filter.md` — done 2026-10-20: `eval/perplexity_filter.py` scored 10 benign + 25 natural injections + 15 synthetic gibberish-suffix cases; suffix median PPL 370.5 vs benign 73.2, windowed AUROC 0.887, but pure-repetition suffixes evade entirely (PPL 4.1/6.8) and fluent injections overlap benign except encoded payloads
 
 ## B. Defenses
-- [ ] B1. System-prompt hardening, 3 levels; A/B on injection suite; record deltas
+- [x] B1. System-prompt hardening, 3 levels; A/B on injection suite; record deltas — done 2026-10-21: `eval/system_prompt_hardening.py` + rendered prompts `prompts/system_l0..l3.txt`; ideal-follower simulation (detector_v1 as recognition layer, explicitly an upper bound, not a live-model ASR): L0 0/25 blocked, L1 12/25, L2 17/25, L3 18/25, benign friction 0/10 at all levels; L3's executed decode-and-inspect procedure newly blocked inj-ep-03 and surfaced (but could not block, sub-threshold) the exfiltration family in inj-ep-02/04; residual misses are recognition/threshold failures, not missing rule text → `results/system_prompt_hardening.md`
 - [ ] B2. Delimiting + spotlighting (datamarking) defenses; compare against B1
 - [ ] B3. Paper notes: Wei et al. 2023, "Jailbroken: How Does LLM Safety Training Fail?" → `notes/jailbreak_failure_modes.md`
 - [ ] B4. Output filter: policy keywords + TF-IDF similarity check (offline, sklearn)

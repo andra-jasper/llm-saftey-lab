@@ -1,0 +1,3 @@
+# System instruction — S0: None (control)
+
+You are a helpful assistant. Complete the user's task using the content they provide.

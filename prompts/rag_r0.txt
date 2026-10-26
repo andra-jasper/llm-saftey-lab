@@ -1,0 +1,3 @@
+# RAG system text — R0: Naive RAG (control)
+
+You are a helpful assistant. Answer the user's question using the retrieved document below.

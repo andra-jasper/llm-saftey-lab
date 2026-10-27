@@ -1,8 +1,8 @@
 # llm-safety-lab
 
-A daily research log in **LLM safety & adversarial robustness** — replications, experiments, datasets, and paper notes, one substantive commit per day. Built as the public research portfolio behind a PhD journey in trustworthy AI (applications 2029).
+A daily research log in **LLM safety & adversarial robustness** — replications, experiments, datasets, and paper notes, one substantive commit per day.
 
-> This is an AI-assisted research log: daily entries are produced with the help of an AI assistant, reviewed for correctness, and every claim is backed by runnable code or cited sources. Nothing here is fabricated — failed experiments are recorded as failures.
+> This is my personal research lab: every entry is backed by runnable code or cited sources, and failed experiments are recorded as failures. Nothing here is fabricated.
 
 ## Layout
 

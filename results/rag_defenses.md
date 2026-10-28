@@ -5,7 +5,7 @@
 - escape probes: `data/rag_escape_probes.yaml` (6 cases, new in B6)
 - code: `eval/rag_defenses.py` (reuses B2 `eval/spotlighting.py` transforms and A4 `eval/detector_v1.py`, both unchanged)
 - per-case rows: `results/rag_defenses_rows.jsonl`; system texts: `prompts/rag_r0.txt` … `prompts/rag_r5.txt`
-- sources: Hines et al. 2024, arXiv:2403.14720 (spotlighting); Greshake et al. 2023, arXiv:2303.12173 (indirect injection)
+- sources: Hines et al. 2024, arXiv:2403.14720 (spotlighting); Greshake et al. 2023, arXiv:2302.12173 (indirect injection)
 
 ## What these numbers are — and are not
 

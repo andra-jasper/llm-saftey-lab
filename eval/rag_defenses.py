@@ -22,7 +22,7 @@ retrieved document) and evaluates six RAG prompt assemblies:
 
 Sources: Hines et al. 2024, "Defending Against Indirect Prompt Injection
 Attacks on Large Language Models with Spotlighting", arXiv:2403.14720;
-Greshake et al. 2023, "Not what you've signed up for", arXiv:2303.12173
+Greshake et al. 2023, "Not what you've signed up for", arXiv:2302.12173
 (the B5 threat model).
 
 HOW THE SCORING WORKS — read this before quoting any number
@@ -328,7 +328,7 @@ def run(suite_path: Path, probes_path: Path, outdir: Path,
         "- per-case rows: `results/rag_defenses_rows.jsonl`; system texts: "
         "`prompts/rag_r0.txt` … `prompts/rag_r5.txt`",
         "- sources: Hines et al. 2024, arXiv:2403.14720 (spotlighting); "
-        "Greshake et al. 2023, arXiv:2303.12173 (indirect injection)",
+        "Greshake et al. 2023, arXiv:2302.12173 (indirect injection)",
         "",
         "## What these numbers are — and are not",
         "",

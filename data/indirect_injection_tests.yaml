@@ -15,7 +15,7 @@
 # Threat-model sources:
 # - Greshake et al. 2023, "Not what you've signed up for: Compromising
 #   Real-World LLM-Integrated Applications with Indirect Prompt Injection",
-#   AISec '23, arXiv:2303.12173 — indirect injection via retrieved content;
+#   AISec '23, arXiv:2302.12173 — indirect injection via retrieved content;
 #   goals include data theft, manipulation, fraud and availability attacks.
 # - Hines et al. 2024, "Defending Against Indirect Prompt Injection Attacks
 #   on Large Language Models with Spotlighting", arXiv:2403.14720 — the

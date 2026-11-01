@@ -1,0 +1,9 @@
+# Structured query format — Q2: Reserved-token delimiters, no filter
+
+[MARK][INST][COLN]
+{prompt}
+
+[MARK][INPT][COLN]
+{data}
+
+[MARK][RESP][COLN]

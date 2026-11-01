@@ -1,0 +1,10 @@
+# Structured query format — Q3: Reserved-token delimiters + repeated filter (StruQ front-end analogue)
+
+[MARK][INST][COLN]
+{prompt}
+
+[MARK][INPT][COLN]
+{data, filtered}
+
+[MARK][RESP][COLN]
+(filter: reserved strings [MARK]/[INST]/[INPT]/[RESP]/[COLN] and ## removed from data repeatedly until none remain)

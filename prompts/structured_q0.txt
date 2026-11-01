@@ -1,0 +1,5 @@
+# Structured query format — Q0: Naive concatenation (control)
+
+{prompt}
+
+{data}

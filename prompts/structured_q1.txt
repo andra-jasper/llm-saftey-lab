@@ -1,0 +1,9 @@
+# Structured query format — Q1: Alpaca textual delimiters, no filter
+
+### Instruction:
+{prompt}
+
+### Input:
+{data}
+
+### Response:

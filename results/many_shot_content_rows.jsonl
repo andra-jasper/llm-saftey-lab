@@ -1,0 +1,27 @@
+{"n": 0, "target": "Norway", "capital": "Oslo", "capital_nll": 3.9966}
+{"n": 0, "target": "Japan", "capital": "Tokyo", "capital_nll": 3.4442}
+{"n": 0, "target": "Canada", "capital": "Ottawa", "capital_nll": 5.1294}
+{"n": 1, "target": "Norway", "capital": "Oslo", "capital_nll": 1.1622}
+{"n": 1, "target": "Japan", "capital": "Tokyo", "capital_nll": 0.8207}
+{"n": 1, "target": "Canada", "capital": "Ottawa", "capital_nll": 2.3956}
+{"n": 2, "target": "Norway", "capital": "Oslo", "capital_nll": 1.4467}
+{"n": 2, "target": "Japan", "capital": "Tokyo", "capital_nll": 0.9833}
+{"n": 2, "target": "Canada", "capital": "Ottawa", "capital_nll": 2.112}
+{"n": 4, "target": "Norway", "capital": "Oslo", "capital_nll": 2.2058}
+{"n": 4, "target": "Japan", "capital": "Tokyo", "capital_nll": 1.4394}
+{"n": 4, "target": "Canada", "capital": "Ottawa", "capital_nll": 2.0527}
+{"n": 8, "target": "Norway", "capital": "Oslo", "capital_nll": 2.3788}
+{"n": 8, "target": "Norway", "capital": "Reykjavik", "capital_nll": 2.1486, "note": "recency competitor"}
+{"n": 8, "target": "Japan", "capital": "Tokyo", "capital_nll": 2.1979}
+{"n": 8, "target": "Japan", "capital": "Reykjavik", "capital_nll": 3.1387, "note": "recency competitor"}
+{"n": 8, "target": "Canada", "capital": "Ottawa", "capital_nll": 1.9575}
+{"n": 8, "target": "Canada", "capital": "Reykjavik", "capital_nll": 2.7231, "note": "recency competitor"}
+{"n": 16, "target": "Norway", "capital": "Oslo", "capital_nll": 2.7226}
+{"n": 16, "target": "Japan", "capital": "Tokyo", "capital_nll": 3.0389}
+{"n": 16, "target": "Canada", "capital": "Ottawa", "capital_nll": 2.0513}
+{"n": 32, "target": "Norway", "capital": "Oslo", "capital_nll": 6.8568}
+{"n": 32, "target": "Norway", "capital": "Reykjavik", "capital_nll": 0.0084, "note": "recency competitor"}
+{"n": 32, "target": "Japan", "capital": "Tokyo", "capital_nll": 7.5545}
+{"n": 32, "target": "Japan", "capital": "Reykjavik", "capital_nll": 0.0096, "note": "recency competitor"}
+{"n": 32, "target": "Canada", "capital": "Ottawa", "capital_nll": 7.118}
+{"n": 32, "target": "Canada", "capital": "Reykjavik", "capital_nll": 0.0138, "note": "recency competitor"}

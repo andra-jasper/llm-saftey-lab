@@ -1,0 +1,72 @@
+{"condition": "base_only", "base": 0, "suffix": "", "ppl": 32.88, "flagged": false}
+{"condition": "base_only", "base": 1, "suffix": "", "ppl": 99.82, "flagged": false}
+{"condition": "base_only", "base": 2, "suffix": "", "ppl": 98.36, "flagged": false}
+{"condition": "random_gibberish", "base": 0, "suffix": "NULL ???? lkjhg wrt **** <,>. ! <,>. |||| ]] |||| ==", "ppl": 298.84, "flagged": true}
+{"condition": "random_fluent", "base": 0, "suffix": "the not an all your in by not we the we she", "ppl": 304.4, "flagged": true}
+{"condition": "random_gibberish", "base": 0, "suffix": "xxxx asdlkj |||| &&&& token pfwmd ! &&&& token == ???? }}}}", "ppl": 493.29, "flagged": true}
+{"condition": "random_fluent", "base": 0, "suffix": "said to which what there in in have a from said it", "ppl": 413.72, "flagged": true}
+{"condition": "random_gibberish", "base": 0, "suffix": "! $%^& parameter= &&&& == $%^& &&&& seite nbvcx % ! interface", "ppl": 262.34, "flagged": true}
+{"condition": "random_fluent", "base": 0, "suffix": "which not is it an said one that use your not you", "ppl": 302.0, "flagged": true}
+{"condition": "random_gibberish", "base": 0, "suffix": "}}}} **** ! oppositeley x43f :// nbvcx x43f ]]]] NULL }}}} ----", "ppl": 607.09, "flagged": true}
+{"condition": "random_fluent", "base": 0, "suffix": "to how are in from your be your how or of with", "ppl": 341.7, "flagged": true}
+{"condition": "random_gibberish", "base": 0, "suffix": ":// lkjhg ]] lkjhg lkjhg |||| ] ^^^^ }} **** ] juste", "ppl": 154.55, "flagged": false, "windowed_ppl": 2140.1}
+{"condition": "random_fluent", "base": 0, "suffix": "of this have be with be your with this were are a", "ppl": 245.86, "flagged": true}
+{"condition": "random_gibberish", "base": 0, "suffix": "seite == juste formatString % }} Lowrance seite x43f .... NULL \\\\", "ppl": 928.08, "flagged": true}
+{"condition": "random_fluent", "base": 0, "suffix": "to use what have said of each or of each by can", "ppl": 216.58, "flagged": true}
+{"condition": "random_gibberish", "base": 0, "suffix": "~~ == # parameter= ] .... &&&& Lowrance ???? parameter= == parameter=", "ppl": 315.86, "flagged": true}
+{"condition": "random_fluent", "base": 0, "suffix": "an a your on a not an she will when from on", "ppl": 259.82, "flagged": true}
+{"condition": "random_gibberish", "base": 0, "suffix": "# x43f oppositeley ---- ???? .... == |||| ! .... .... nbvcx", "ppl": 452.16, "flagged": true}
+{"condition": "random_fluent", "base": 0, "suffix": "your there your what how not for that were a how on", "ppl": 307.77, "flagged": true}
+{"condition": "random_gibberish", "base": 0, "suffix": "== }} == x43f ]] # ]]]] \\\\ ]] x43f parameter= ||||", "ppl": 366.43, "flagged": true}
+{"condition": "random_fluent", "base": 0, "suffix": "there to what the that were you she by what will a", "ppl": 384.91, "flagged": true}
+{"condition": "random_gibberish", "base": 0, "suffix": "^^^^ lkjhg ]]]] ???? parameter= NULL &&&& ]] zqxjkvb zqxjkvb Lowrance ~~", "ppl": 193.51, "flagged": false}
+{"condition": "random_fluent", "base": 0, "suffix": "how to have it in a is were not an you have", "ppl": 160.49, "flagged": false, "windowed_ppl": 576.12}
+{"condition": "hillclimb_mixed", "base": 0, "suffix": "that we can that Lowrance Lowrance your your # token will in", "ppl": 307.54, "flagged": true, "start_ppl": 925.16, "trajectory": [[0, 925.16], [1, 581.51], [2, 508.43], [8, 497.66], [9, 472.08], [10, 459.8], [22, 434.31], [26, 430.56], [30, 349.67], [31, 334.53], [32, 307.54]], "accepted": 10, "windowed_ppl": 7293.31}
+{"condition": "repetition_the", "base": 0, "suffix": "the the the the the the the the the the the the", "ppl": 33.92, "flagged": false, "windowed_ppl": 510.57}
+{"condition": "repetition_!", "base": 0, "suffix": "! ! ! ! ! ! ! ! ! ! ! !", "ppl": 13.33, "flagged": false, "windowed_ppl": 451.62}
+{"condition": "random_gibberish", "base": 1, "suffix": "|||| <,>. interface .... token xxxx ;; == pfwmd ] x43f beanCoord", "ppl": 2008.37, "flagged": true}
+{"condition": "random_fluent", "base": 1, "suffix": "it from you for this is the all you is one as", "ppl": 401.98, "flagged": true}
+{"condition": "random_gibberish", "base": 1, "suffix": "juste <,>. == zqxjkvb ~~ &&&& xxxx ]] # ]] ^^^^ nbvcx", "ppl": 542.32, "flagged": true}
+{"condition": "random_fluent", "base": 1, "suffix": "to from we there in by were there that the their of", "ppl": 599.93, "flagged": true}
+{"condition": "random_gibberish", "base": 1, "suffix": "^^^^ ! .... wrt lkjhg ^^^^ seite interface :// % }} parameter=", "ppl": 625.12, "flagged": true}
+{"condition": "random_fluent", "base": 1, "suffix": "on to use have of we not use is in to not", "ppl": 437.26, "flagged": true}
+{"condition": "random_gibberish", "base": 1, "suffix": "# :// interface == formatString \\\\ ---- juste ???? beanCoord :// wrt", "ppl": 879.05, "flagged": true}
+{"condition": "random_fluent", "base": 1, "suffix": "an for as with when with a use by your said their", "ppl": 562.13, "flagged": true}
+{"condition": "random_gibberish", "base": 1, "suffix": "12321 :// ;; == $%^& NULL ]]]] % interface asdlkj $%^& ----", "ppl": 910.21, "flagged": true}
+{"condition": "random_fluent", "base": 1, "suffix": "one are it are from how with the she there a for", "ppl": 679.24, "flagged": true}
+{"condition": "random_gibberish", "base": 1, "suffix": "zqxjkvb parameter= &&&& \\\\ ???? lkjhg NULL ^^^^ nbvcx == token ]]", "ppl": 651.5, "flagged": true}
+{"condition": "random_fluent", "base": 1, "suffix": "your use have and have not to we all you how to", "ppl": 268.55, "flagged": true, "windowed_ppl": 723.69}
+{"condition": "random_gibberish", "base": 1, "suffix": "asdlkj ] NULL token ---- # ]] ???? ^^^^ xxxx ^^^^ ]", "ppl": 508.4, "flagged": true, "windowed_ppl": 14751.8}
+{"condition": "random_fluent", "base": 1, "suffix": "it and is be for on a their to which have each", "ppl": 634.5, "flagged": true}
+{"condition": "random_gibberish", "base": 1, "suffix": "formatString Lowrance asdlkj |||| ---- == asdlkj 12321 xxxx 12321 ---- ==", "ppl": 729.42, "flagged": true}
+{"condition": "random_fluent", "base": 1, "suffix": "you were of of with which on how not were have or", "ppl": 804.32, "flagged": true}
+{"condition": "random_gibberish", "base": 1, "suffix": "% ]]]] # NULL formatString <,>. **** beanCoord 12321 beanCoord wrt xxxx", "ppl": 1020.48, "flagged": true}
+{"condition": "random_fluent", "base": 1, "suffix": "will said that as and by by not or which an there", "ppl": 590.7, "flagged": true}
+{"condition": "random_gibberish", "base": 1, "suffix": "&&&& token $%^& $%^& pfwmd nbvcx 12321 Lowrance # \\\\ \\\\ NULL", "ppl": 540.08, "flagged": true}
+{"condition": "random_fluent", "base": 1, "suffix": "you will how is your each you is one which each with", "ppl": 735.06, "flagged": true}
+{"condition": "hillclimb_mixed", "base": 1, "suffix": "as a lkjhg when the xxxx on xxxx said not are zqxjkvb", "ppl": 271.76, "flagged": true, "start_ppl": 1865.64, "trajectory": [[0, 1865.64], [2, 1782.79], [3, 1619.31], [5, 1412.04], [7, 1302.64], [8, 1194.39], [10, 1166.32], [11, 1122.05], [12, 1003.85], [13, 631.65], [14, 482.86], [16, 451.77], [25, 440.18], [27, 347.93], [31, 340.26], [36, 310.09], [37, 271.76]], "accepted": 16, "windowed_ppl": 1778.52}
+{"condition": "repetition_the", "base": 1, "suffix": "the the the the the the the the the the the the", "ppl": 39.41, "flagged": false, "windowed_ppl": 467.62}
+{"condition": "repetition_!", "base": 1, "suffix": "! ! ! ! ! ! ! ! ! ! ! !", "ppl": 18.48, "flagged": false, "windowed_ppl": 434.67}
+{"condition": "random_gibberish", "base": 2, "suffix": "interface ;; formatString % NULL &&&& <,>. |||| NULL $%^& <,>. nbvcx", "ppl": 846.73, "flagged": true}
+{"condition": "random_fluent", "base": 2, "suffix": "were by it to are were one the and their be one", "ppl": 432.22, "flagged": true}
+{"condition": "random_gibberish", "base": 2, "suffix": "$%^& x43f \\\\ **** |||| ]] beanCoord NULL ]]]] &&&& }}}} ~~", "ppl": 1431.06, "flagged": true}
+{"condition": "random_fluent", "base": 2, "suffix": "on with on when we on there from what is be are", "ppl": 308.83, "flagged": true, "windowed_ppl": 1184.59}
+{"condition": "random_gibberish", "base": 2, "suffix": "beanCoord ---- seite beanCoord nbvcx 12321 .... ] % ]]]] ! parameter=", "ppl": 919.13, "flagged": true}
+{"condition": "random_fluent", "base": 2, "suffix": "can and she to the how said use said each which have", "ppl": 592.35, "flagged": true}
+{"condition": "random_gibberish", "base": 2, "suffix": "$%^& ;; \\\\ parameter= :// interface formatString ! wrt **** ---- }}}}", "ppl": 1178.79, "flagged": true}
+{"condition": "random_fluent", "base": 2, "suffix": "use of that your one said are she each be not one", "ppl": 634.39, "flagged": true}
+{"condition": "random_gibberish", "base": 2, "suffix": "beanCoord 12321 ???? x43f <,>. Lowrance \\\\ ] Lowrance .... seite ]]]]", "ppl": 1338.84, "flagged": true}
+{"condition": "random_fluent", "base": 2, "suffix": "that be be not were your one as in all not and", "ppl": 337.99, "flagged": true}
+{"condition": "random_gibberish", "base": 2, "suffix": "\\\\ # oppositeley # ] 12321 ???? ^^^^ parameter= ???? interface ]", "ppl": 720.64, "flagged": true}
+{"condition": "random_fluent", "base": 2, "suffix": "were is an their a their with from and all by that", "ppl": 444.25, "flagged": true}
+{"condition": "random_gibberish", "base": 2, "suffix": "xxxx pfwmd interface pfwmd seite == # &&&& x43f ???? ~~ ==", "ppl": 519.93, "flagged": true, "windowed_ppl": 8649.54}
+{"condition": "random_fluent", "base": 2, "suffix": "to when are is that have are by one she there this", "ppl": 535.42, "flagged": true}
+{"condition": "random_gibberish", "base": 2, "suffix": "Lowrance beanCoord **** ]]]] ]]]] wrt beanCoord seite <,>. Lowrance \\\\ ****", "ppl": 775.6, "flagged": true}
+{"condition": "random_fluent", "base": 2, "suffix": "how were are of we she are is is have it can", "ppl": 488.96, "flagged": true}
+{"condition": "random_gibberish", "base": 2, "suffix": "]] ---- |||| }} juste nbvcx % &&&& ! &&&& ]] interface", "ppl": 905.03, "flagged": true}
+{"condition": "random_fluent", "base": 2, "suffix": "as in use are one not this use with on which this", "ppl": 367.37, "flagged": true}
+{"condition": "random_gibberish", "base": 2, "suffix": "formatString formatString pfwmd }} NULL $%^& == **** == ^^^^ oppositeley ----", "ppl": 920.85, "flagged": true}
+{"condition": "random_fluent", "base": 2, "suffix": "or there are have of can said when in as their said", "ppl": 577.87, "flagged": true}
+{"condition": "hillclimb_mixed", "base": 2, "suffix": "and wrt lkjhg it ???? :// $%^& :// of the $%^& lkjhg", "ppl": 106.27, "flagged": false, "start_ppl": 1054.67, "trajectory": [[0, 1054.67], [1, 878.83], [3, 707.83], [4, 427.83], [8, 422.28], [10, 350.11], [14, 304.89], [16, 277.52], [20, 254.93], [23, 253.32], [26, 157.53], [33, 145.12], [34, 136.36], [35, 131.0], [36, 111.81], [39, 106.27]], "accepted": 15, "windowed_ppl": 1339.49}
+{"condition": "repetition_the", "base": 2, "suffix": "the the the the the the the the the the the the", "ppl": 48.01, "flagged": false, "windowed_ppl": 480.68}
+{"condition": "repetition_!", "base": 2, "suffix": "! ! ! ! ! ! ! ! ! ! ! !", "ppl": 18.32, "flagged": false, "windowed_ppl": 295.6}

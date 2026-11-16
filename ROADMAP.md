@@ -54,3 +54,16 @@ Checked off as completed. When fewer than 5 unchecked tasks remain, append 10 mo
 - [ ] F8. Evasiveness-aware refusal metric: extend D3 to a 3-way label (refusal / compliance / safe completion) on documented synthetic v2 data with family-held-out splits; report the D3 binary baseline alongside
 - [ ] F9. AgentDojo-style mini benchmark, offline: stateful mock-tool tasks with formal state checks (benign utility + utility-under-attack + targeted ASR), executor simulation labelled as an upper bound — `data/agent_tasks.yaml` + harness support
 - [ ] F10. Cross-language transfer test: detector_v1 + perplexity filter on a documented translated subset of A2 (French/German/Spanish, translations committed with sources); test whether thresholds tuned on English transfer
+
+## G. Preprint-path cycle (appended 2026-11-16, F6 run — pool fell below 5)
+
+- [ ] G1. Flagship blocked-corpus variant, part 1: locally generated amortised-style suffixes (distilgpt2-sampled gibberish + the D5 hill-climb pool) scored with the frozen E2/E3 pipeline; test whether the windowed AUROC on generator-distribution gibberish matches A6's 0.887 hand-written figure — `results/flagship_variant_g1.md`
+- [ ] G2. Preprint draft v0: `paper/draft_v0.md` — methods + E3 S1 dilution results + F6 adaptive context, every claim checked against the E4 claims ledger (no AmpleGCG claims while the AMP arms stay blocked)
+- [ ] G3. Known-answer detection prototype (E1 Candidate 3, the one C1-taxonomy family never tried): implement displacement scoring in the harness; transfer test tuned on A2 only, tested untouched on B5, and vice versa
+- [ ] G4. Clean-task suite v1: `data/clean_tasks.yaml` — programmatic-check tasks (summarise / extract / QA with exact-match scoring); the dataset E1 Candidate 2 and D7 require before any clean-task cost claim
+- [ ] G5. Clean-task cost measurement: B2/B6/C6 front-ends over the G4 suite; report task accuracy per defense in the F4 triple format (robustness + benign cost + compute cost)
+- [ ] G6. Wording-search adaptive attacker (extends F6): paraphrase / synonym mutation search against detector_v1 at the B2/B6 oracle; report per-family evasion rates with attacker model + budget stated
+- [ ] G7. Meta-SecAlign smoke-test pack (execution blocked on gated HF access): `eval/secalign_smoke.py` + a 12-prompt B5 subset + runbook, ready to run the day gated access or a GPU exists; no download attempted without access approval
+- [ ] G8. Perplexity filter calibration: windowed-score threshold selected on benign data only (no test-set tuning); re-report the A6/E3 numbers under the frozen benign-only threshold
+- [ ] G9. Second-model perplexity check: repeat the A6 scoring with a second small model (gpt2) to test whether the windowed AUROC 0.887 is a distilgpt2 artefact
+- [ ] G10. Reproducibility pack: one-command runner + pinned environment that reproduces every headline number in C3's leaderboard from the committed rows (the preprint's reproducibility appendix)

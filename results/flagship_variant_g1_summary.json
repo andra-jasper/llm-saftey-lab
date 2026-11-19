@@ -1,0 +1,83 @@
+{
+  "run_date": "2026-11-17",
+  "seed": 20261117,
+  "benign_reference": {
+    "n": 10,
+    "full": {
+      "n": 10,
+      "min": 44.09,
+      "median": 73.22,
+      "mean": 98.08,
+      "max": 315.84
+    },
+    "windowed": {
+      "n": 10,
+      "min": 334.97,
+      "median": 609.12,
+      "mean": 642.17,
+      "max": 1099.28
+    },
+    "source": "A6 committed rows, reused not rescored"
+  },
+  "a6_reference": {
+    "synthetic_suffix_windowed_auroc": 0.887,
+    "synthetic_suffix_full_auroc": 0.78
+  },
+  "GEN-SAMPLE": {
+    "n": 25,
+    "full": {
+      "n": 25,
+      "min": 25.82,
+      "median": 106.29,
+      "mean": 118.42,
+      "max": 263.26
+    },
+    "windowed": {
+      "n": 25,
+      "min": 128.47,
+      "median": 555.35,
+      "mean": 684.78,
+      "max": 1730.57
+    },
+    "full_auroc_vs_benign": 0.496,
+    "full_auroc_ci95": [
+      0.296,
+      0.712
+    ],
+    "windowed_auroc_vs_benign": 0.416,
+    "windowed_auroc_ci95": [
+      0.248,
+      0.612
+    ]
+  },
+  "D5-POOL": {
+    "random_gibberish": {
+      "full_stats": {
+        "n": 30,
+        "min": 154.55,
+        "median": 686.07,
+        "mean": 734.79,
+        "max": 2008.37
+      },
+      "full_auroc_vs_benign": 0.987,
+      "full_auroc_ci95": [
+        0.95,
+        1.0
+      ]
+    },
+    "random_fluent": {
+      "full_stats": {
+        "n": 30,
+        "min": 160.49,
+        "median": 422.97,
+        "mean": 445.69,
+        "max": 804.32
+      },
+      "full_auroc_vs_benign": 0.97,
+      "full_auroc_ci95": [
+        0.893,
+        1.0
+      ]
+    }
+  }
+}

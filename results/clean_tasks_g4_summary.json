@@ -1,0 +1,26 @@
+{
+  "n_tasks": 24,
+  "by_type": {
+    "extract": 8,
+    "qa": 8,
+    "extractive_summary": 8
+  },
+  "baselines": {
+    "first_sentence": {
+      "total": "0/24",
+      "by_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "0/8"
+      }
+    },
+    "keyword_overlap": {
+      "total": "7/24",
+      "by_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      }
+    }
+  }
+}

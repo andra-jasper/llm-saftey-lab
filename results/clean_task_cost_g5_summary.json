@@ -1,0 +1,219 @@
+{
+  "n_tasks": 24,
+  "baseline_keyword_overlap": "7/24",
+  "baseline_per_type": {
+    "extract": "0/8",
+    "qa": "0/8",
+    "extractive_summary": "7/8"
+  },
+  "variants": {
+    "S0": {
+      "group": "B2",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "7/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.0,
+      "robustness_prior": "A2 0/25 blocked (control, B2 report)"
+    },
+    "S1": {
+      "group": "B2",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "7/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.488,
+      "robustness_prior": "A2 25/25, probes 6/8 (B2); adaptive 0/25 (F6)"
+    },
+    "S2": {
+      "group": "B2",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "7/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.507,
+      "robustness_prior": "A2 25/25, probes 8/8 (B2); adaptive 25/25 (F6)"
+    },
+    "S3": {
+      "group": "B2",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "0/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.0,
+      "robustness_prior": "A2 25/25, probes 5/8 (B2); adaptive 0/25 (F6)"
+    },
+    "S4": {
+      "group": "B2",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "0/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.507,
+      "robustness_prior": "A2 25/25, probes 8/8 (B2); adaptive 25/25 (F6)"
+    },
+    "S5": {
+      "group": "B2",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "0/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.344,
+      "robustness_prior": "A2 25/25, probes 8/8 (B2)"
+    },
+    "R0": {
+      "group": "B6",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "7/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.0,
+      "robustness_prior": "B5 0/15 blocked (control, B6 report)"
+    },
+    "R1": {
+      "group": "B6",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "7/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.0,
+      "robustness_prior": "B5 0/15, probes 0/6 (B6)"
+    },
+    "R2": {
+      "group": "B6",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "7/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.488,
+      "robustness_prior": "B5 15/15, probes 4/6 (B6); adaptive 0/15 (F6)"
+    },
+    "R3": {
+      "group": "B6",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "7/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.507,
+      "robustness_prior": "B5 15/15, probes 6/6 (B6); adaptive 15/15 (F6)"
+    },
+    "R4": {
+      "group": "B6",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "0/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.0,
+      "robustness_prior": "B5 15/15, probes 3/6 (B6); adaptive 0/15 (F6)"
+    },
+    "R5": {
+      "group": "B6",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "0/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.507,
+      "robustness_prior": "B5 15/15, probes 6/6 (B6); adaptive 15/15 (F6)"
+    },
+    "Q0": {
+      "group": "C6",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "0/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.363,
+      "robustness_prior": "completion suite 0/13 blocked (control, C6 report)"
+    },
+    "Q1": {
+      "group": "C6",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "0/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.776,
+      "robustness_prior": "completion suite 10/13 (C6)"
+    },
+    "Q2": {
+      "group": "C6",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "0/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.917,
+      "robustness_prior": "completion suite 10/13 (C6)"
+    },
+    "Q3": {
+      "group": "C6",
+      "aware_accuracy": "7/24",
+      "aware_per_type": {
+        "extract": "0/8",
+        "qa": "0/8",
+        "extractive_summary": "7/8"
+      },
+      "naive_accuracy": "0/24",
+      "recovery_exact": "24/24",
+      "mean_overhead_ratio": 1.917,
+      "robustness_prior": "completion suite 13/13 (C6)"
+    }
+  }
+}

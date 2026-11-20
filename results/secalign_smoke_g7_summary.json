@@ -1,0 +1,18 @@
+{
+  "model": "facebook/Meta-SecAlign-8B",
+  "subset_cases": 12,
+  "validated_cases": 12,
+  "validation_problems": [],
+  "prerequisites": {
+    "hf_token_present": false,
+    "cuda_gpu_available": false,
+    "disk_free_gb_ge_20": true
+  },
+  "missing": [
+    "hf_token_present",
+    "cuda_gpu_available"
+  ],
+  "disk_free_gb": 260.8,
+  "status": "BLOCKED",
+  "download_attempted": false
+}

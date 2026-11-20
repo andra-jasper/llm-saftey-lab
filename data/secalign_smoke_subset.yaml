@@ -1,0 +1,24 @@
+# G7 smoke-test subset: 12 of the 15 B5 indirect-injection cases.
+# Source suite: data/indirect_injection_tests.yaml (ROADMAP B5, 2026-10-25;
+# Greshake et al. 2023, arXiv:2302.12173; Hines et al. 2024, arXiv:2403.14720).
+# Selection rule (fixed 2026-11-20, before any SecAlign run): the first two
+# cases of each of the 5 B5 categories, plus ind-exf-03 and ind-hid-03 so the
+# exfiltration and hidden/encoded families (the two families every lab
+# detector so far has missed or under-flagged) keep full 3-case coverage.
+# The 3 excluded cases (ind-hij-03, ind-man-03, ind-aut-03) stay in B5 for a
+# full run once access exists; nothing about them is claimed here.
+name: secalign_smoke_subset
+source_suite: data/indirect_injection_tests.yaml
+cases:
+  - {id: ind-exf-01, category: exfiltration}
+  - {id: ind-exf-02, category: exfiltration}
+  - {id: ind-exf-03, category: exfiltration}
+  - {id: ind-hij-01, category: task_hijack}
+  - {id: ind-hij-02, category: task_hijack}
+  - {id: ind-man-01, category: manipulation}
+  - {id: ind-man-02, category: manipulation}
+  - {id: ind-aut-01, category: authority_spoof_in_document}
+  - {id: ind-aut-02, category: authority_spoof_in_document}
+  - {id: ind-hid-01, category: hidden_encoded_in_document}
+  - {id: ind-hid-02, category: hidden_encoded_in_document}
+  - {id: ind-hid-03, category: hidden_encoded_in_document}

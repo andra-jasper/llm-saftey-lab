@@ -1,0 +1,20 @@
+{
+  "run_at": "2026-11-21T14:16:55.766573+00:00",
+  "b4_keyword_raw_blocked_compromised": 9,
+  "b4_keyword_v2_blocked_compromised": 9,
+  "b4_benign_fp_raw": 0,
+  "b4_benign_fp_v2": 0,
+  "encoded_raw_blocked": 1,
+  "encoded_v2_blocked": 9,
+  "encoded_n_single_layer": 9,
+  "hex_blocked": 0,
+  "hex_n": 1,
+  "encoded_benign_fp_v2": 0,
+  "encoded_benign_n": 4,
+  "predictions": {
+    "P1_raw_blocks_0_encoded": false,
+    "P2_v2_blocks_all_single_layer": true,
+    "P3_benign_encoded_fp_0": true,
+    "P4_hex_missed": true
+  }
+}

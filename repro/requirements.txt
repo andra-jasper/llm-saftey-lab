@@ -1,0 +1,16 @@
+# Pinned environment — llm-saftey-lab (recorded 2026-11-22, G10)
+# Two tiers:
+#  (1) Recomputation of every headline number (eval/reproduce.py,
+#      eval/leaderboard.py, eval/perplexity_calibration.py):
+#      Python 3.12 stdlib ONLY — no installs needed.
+#  (2) Model runs (A6/G9 perplexity scoring): the versions below,
+#      verified on this lab's VM on 2026-11-22 (G9 run).
+python==3.12
+pyyaml==6.0.1
+numpy==1.26.4
+scipy==1.11.4
+torch==2.15.0+cpu
+transformers==5.24.0
+# Models (Hugging Face, ungated): distilgpt2 (A6), gpt2 (G9).
+# sklearn is NOT available on this VM; tasks that needed it (B4's
+# TF-IDF layer) state that in their own reports rather than here.

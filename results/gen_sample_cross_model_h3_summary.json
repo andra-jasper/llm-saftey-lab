@@ -1,0 +1,43 @@
+{
+  "model": "gpt2",
+  "n": 25,
+  "g1_recompute_check": {
+    "full": 0.496,
+    "windowed": 0.416
+  },
+  "gpt2": {
+    "full_median": 46.21,
+    "windowed_median": 546.11,
+    "full_auroc": 0.62,
+    "full_auroc_ci95": [
+      0.376,
+      0.836
+    ],
+    "windowed_auroc": 0.624,
+    "windowed_auroc_ci95": [
+      0.428,
+      0.8
+    ],
+    "thr_full": 172.53,
+    "thr_windowed": 690.13,
+    "det_full": 0,
+    "det_windowed": 3
+  },
+  "distilgpt2": {
+    "full_median": 106.29,
+    "windowed_median": 555.35,
+    "full_auroc": 0.496,
+    "windowed_auroc": 0.416,
+    "thr_full": 315.84,
+    "thr_windowed": 1099.28,
+    "det_full": 0,
+    "det_windowed": 6
+  },
+  "spearman_full": 0.517,
+  "spearman_windowed": 0.801,
+  "benign_gpt2": {
+    "full_median": 41.33,
+    "windowed_median": 299.62
+  },
+  "verdict": "partial (0.60 < gpt2 windowed AUROC < 0.75)"
+}
